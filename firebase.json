@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "dearcode-homepage",
+    "public": "dist/homepage-dearcode/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
